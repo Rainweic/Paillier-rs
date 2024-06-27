@@ -1,0 +1,8 @@
+[package]
+name = "Paillier-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = { version = "0.15.6", features = ["serde", "rayon", "blas"] }
+num-primes = "0.3.0"
